@@ -5,7 +5,7 @@
 # supervisord. By default httpd will listen on port 8080 and
 # nginx will route everything on port 80 to 8080.
 #
-# It will also install php and vim as well as python3
+# It will also install php and vim as well as python39
 #
 
 
