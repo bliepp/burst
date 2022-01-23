@@ -83,6 +83,9 @@ echo "Install and enable supervisord"
 dnf install supervisor -y
 systemctl enable --now supervisord
 
+# since supervisor installs python36 with link python3, python will also point to python36, so
+alternatives --set python3 /usr/bin/python3.9
+
 
 #
 # FINISH
