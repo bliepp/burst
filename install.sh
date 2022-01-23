@@ -53,7 +53,7 @@ echo "Install nginx"
 dnf install nginx -y
 
 echo "Remove PHP from being handled by nginx"
-mv /etc/nginx/conf.d/php-fpm.conf /etc/nginx/conf.d/php-fpm._conf
+mv /etc/nginx/conf.d/php-fpm.conf /etc/nginx/conf.d/php-fpm.conf_old
 
 echo "Configure nginx"
 
